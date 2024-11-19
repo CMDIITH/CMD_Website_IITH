@@ -1,0 +1,233 @@
+.phases-all {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.phases-masterplan {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.phases-masterplan-heading {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+    margin-right: auto;
+    margin-left: 90px;
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.phases-masterplan-map {
+    width: 1750px;
+}
+
+.phases-phase-1 {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    width: 100%;
+}
+
+.phases-phase-1-heading {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+    margin-right: auto;
+    margin-left: 270px;
+    font-size: 100px;
+}
+
+.phases-phase-1-content {
+    font-family: 'Poppins', sans-serif;
+    width: 1400px;
+    font-size: 24px;
+}
+
+.future-plan-content {
+    font-family: 'Poppins', sans-serif;
+    width: 1740px;
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+.gallery-div {
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.phases-phase-1-grid {
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 150px;
+}
+
+.img4 {
+    width: 910px;
+    height: 300px;
+    grid-column: span 2;
+}
+
+.img5 {
+    width: 450px;
+    height: 300px;
+}
+
+.spanrow {
+    width: 450px;
+    height: 610px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.future-plans-all {
+    color: black;
+    background-color: white;
+}
+
+.future-plans-heading {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+    margin-right: auto;
+    margin-left: 90px;
+    font-size: 100px;
+    margin-bottom: -50px;
+}
+
+.phases-phase-3 {
+    padding-bottom: 150px;
+}
+
+.phases-future-plan-img {
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 992px)  {
+    .phases-all {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .phases-masterplan {
+        padding-top: 150px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .phases-masterplan-heading {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        margin-right: auto;
+        margin-left: 2vw;
+        font-size: 100px;
+        margin-bottom: 20px;
+    }
+
+    .phases-masterplan-map {
+        width: 98vw;
+    }
+
+    .phases-phase-1 {
+        padding-top: 10vh;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        background-color: black;
+        width: 100%;
+    }
+
+    .phases-phase-1-heading {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        margin-right: auto;
+        margin-left: 2vw;
+        font-size: 15vw;
+    }
+
+    .phases-phase-1-content {
+        font-family: 'Poppins', sans-serif;
+        width: 90vw;
+        font-size: 4vw;
+    }
+
+    .future-plan-content {
+        font-family: 'Poppins', sans-serif;
+        width: 90vw;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .gallery-div {
+        margin-top: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .phases-phase-1-grid {
+        margin-top: 9px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 1vw;
+        margin-bottom: 15px;
+    }
+
+        .img4 {
+            width: 61vw;
+            height: 20vw;
+            grid-column: span 2;
+        }
+
+        .img5 {
+            width: 30vw;
+            height: 20vw;
+        }
+
+        .spanrow {
+            width: 30vw;
+            height: 41vw;
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+
+    .future-plans-all {
+        color: black;
+        background-color: white;
+    }
+
+    .future-plans-heading {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        margin-right: auto;
+        margin-left: 2vw;
+        font-size: 15vw;
+        margin-bottom: -50px;
+    }
+
+    .phases-phase-3 {
+        padding-bottom: 150px;
+    }
+
+    .phases-future-plan-img {
+        margin-top: 70px;
+        margin-bottom: 80px;
+    }
+}

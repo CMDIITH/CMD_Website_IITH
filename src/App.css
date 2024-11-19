@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+  justify-content: center;
+  align-items: center;
+  outline: red 0px solid;
+}
+
+.body {
+  background: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  .mobile-hide {
+    display: none;
+  }
+}
+

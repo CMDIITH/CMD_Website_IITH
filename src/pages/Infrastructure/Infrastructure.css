@@ -1,0 +1,339 @@
+.infra-all {
+    padding-top: 200px;
+}
+
+
+.infra-unique {
+    margin-bottom: 200px;
+}
+
+.infra-unique-card-all {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.infra-unique-card-heading {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+}
+
+.infra-unique-heading {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+    font-size: 100px;
+    margin-left: 200px;
+    margin-bottom: 70px;
+}
+
+.infra-unique-card-left {
+    width: 70%;
+    display: flex;
+    gap: 150px;
+    padding: 20px;
+    border-radius: 5px;
+    transition: transform 0.6s ease;
+}
+
+.infra-unique-card-left:hover {
+    transform: scale(1.05);
+}
+
+.infra-unique-card-img {
+    width: 400px;
+    border-radius: 5px;
+}
+
+.infra-unique-card-vid {
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+
+.infra-unique-card-right {
+    width: 70%;
+    display: flex;
+    gap: 150px;
+    padding: 20px;
+    border-radius: 5px;
+    transition: transform 0.6s ease;
+}
+
+.infra-unique-card-right:hover {
+    transform: scale(1.05);
+}
+
+.infra-unique-card-para {
+    width: 800px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+
+.infra-build-navi-heading {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+    font-size: 100px;
+    margin-left: 200px;
+}
+
+
+.infra-navigation {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 400px;
+    gap: 10px;
+    margin-bottom: 500px;
+    padding-top: 430px;
+}
+
+.cards {
+    position: relative;
+    left: 0;
+    width: 180px;
+    height: 700px;
+    border-radius: 5px;
+    padding: 8px;
+    transition: .5s all;
+    flex: 1;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.card1 {
+    background-image: url(../../assets/Images/Gallery/Gall_6.jpeg);
+    background-size: cover;
+}
+
+.card2 {
+    background-image: url(../../assets/Images/Infra/acad2.jpeg);
+    background-size: cover;
+}
+
+.card3 {
+    background-image: url(../../assets/Images/Infra/sncc2.jpeg);
+    background-size: cover;
+}
+
+.cards:hover {
+    flex: 3;
+}
+
+.infra-vision {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+    padding-left: 6%;
+}
+
+.infra-vision-heading {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+    font-size: 100px;
+    margin-right: auto;
+}
+
+.infra-vision-subhead {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 300;
+    font-size: 70px;
+    color: purple;
+    border-bottom: purple solid 3px;
+    margin-top: 70px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 75%;
+}
+
+.infra-vision-content {
+    width: 75%;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    margin-right: auto;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 992px) {
+    .infra-all {
+        padding-top: 20vw;
+    }
+
+
+    .infra-unique {
+        margin-bottom: 20px;
+    }
+
+    .infra-unique-card-all {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .infra-unique-card-heading {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 500;
+    }
+
+    .infra-unique-heading {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        font-size: 10vw;
+        margin-left: 2vw;
+        margin-top: 7vh;
+        margin-bottom: 7px;
+    }
+
+    .infra-unique-card-left {
+        width: 98vw;
+        display: flex;
+        gap: 15px;
+        padding: 2px;
+        border-radius: 5px;
+        transition: transform 0.6s ease;
+    }
+
+    .infra-unique-card-left:hover {
+        transform: scale(1.05);
+    }
+
+    .infra-unique-card-img {
+        width: 40px;
+        border-radius: 5px;
+    }
+
+    .infra-unique-card-vid {
+        width: 50px;
+        height: 30px;
+        border-radius: 5px;
+    }
+
+
+    .infra-unique-card-right {
+        width: 98vw;
+        display: flex;
+        gap: 15px;
+        padding: 2px;
+        border-radius: 5px;
+        transition: transform 0.6s ease;
+    }
+
+    .infra-unique-card-right:hover {
+        transform: scale(1.05);
+    }
+
+    .infra-unique-card-para {
+        width: 98vw;
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+    }
+
+    .infra-build-navi-heading {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        font-size: 10vw;
+        margin-top: 4vh;
+        margin-left: 2vw;
+    }
+
+
+    .infra-navigation {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        width: 98vw;
+        height: auto;
+        gap: 1px;
+        margin-bottom: 50px;
+        padding-top: 43px;
+    }
+
+    .cards {
+        position: relative;
+        left: 0;
+        width: 98vw;
+        height: 10vh;
+        border-radius: 5px;
+        padding: 8px;
+        transition: .5s all;
+        flex: 1;
+        font-size: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .card1 {
+        background-image: url(../../assets/Images/Gallery/Gall_6.jpeg);
+        filter: brightness(80%);
+        background-size: cover;
+    }
+
+    .card2 {
+        background-image: url(../../assets/Images/Infra/acad2.jpeg);
+        background-size: cover;
+        filter: brightness(80%);
+    }
+
+    .card3 {
+        background-image: url(../../assets/Images/Infra/sncc2.jpeg);
+        background-size: cover;
+        filter: brightness(80%);
+    }
+
+    .cards:hover {
+        flex: 3;
+    }
+
+    .infra-vision {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .infra-vision-heading {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        font-size: 15vw;
+        margin-right: auto;
+        margin-left: 2vw;
+    }
+
+    .infra-vision-subhead {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 300;
+        font-size: 4vw;
+        color: purple;
+        border-bottom: purple solid 3px;
+        margin-top: 7px;
+        margin-right: auto;
+        margin-left: 2vw;
+        margin-bottom: 1px;
+    }
+
+    .infra-vision-content {
+        width: 98vw;
+        text-align: left;
+        font-family: "Poppins", sans-serif;
+        margin-right: auto;
+        margin-left: 2vw;
+        margin-top: 1vw;
+        font-size: 4vw;
+    }
+
+}
+

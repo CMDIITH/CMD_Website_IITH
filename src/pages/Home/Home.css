@@ -1,0 +1,1339 @@
+@font-face {
+    font-family: migra;
+    src: url(/src/assets/Fonts/Migra-Extralight.ttf);
+}
+
+@font-face {
+    font-family: tusk;
+    src: url(/src/assets/Fonts/TuskerGrotesk-2600Semibold.ttf);
+}
+
+@font-face {
+    font-family: modernist;
+    src: url(/src/assets/Fonts/Sk-Modernist-Regular.otf);
+}
+
+.home-all {
+    background-color: transparent;
+    color: white;
+    height: auto;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.home-bg {
+    background-size: cover;
+    filter: brightness(60%);
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    z-index: -10;
+}
+
+.hero {
+    width: 100vw;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.hero-head-first {
+    font-family: "DM Sans", sans-serif;
+    font-size: 7.2vw;
+    font-weight: 300;
+    color: #f5eee6;
+    letter-spacing: 3px;
+    width: 65vw;
+    margin-left: 0.6vw;
+}
+
+
+.hero-head-second {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 300;
+    margin-top: 450px;
+    font-size: 40px;
+    color: rgb(243, 219, 199);
+    letter-spacing: 2px;
+    margin-right: 0.6vw;
+}
+
+
+.cmd-intro-1 {
+    background-color: rgba(0, 0, 0, 0);
+    height: 100vh;
+    width: 100%;
+    gap: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cmd-intro-heading-1 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+    font-size: 5.5vw;
+}
+
+.cmd-intro-content-1 {
+    width: 74%;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6vw;
+    text-align: center;
+}
+
+
+.cmd-intro-logo-img {
+    border-radius: 50%;
+}
+
+.dean-message-all {
+    background-color: white;
+    height: auto;
+    padding-top: 8%;
+    padding-bottom: 5%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6vh;
+    color: black;
+    border-bottom: #333 solid 0.1px;
+}
+
+.dean-message-heading {
+    width: 75%;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+    font-size: 100px;
+}
+
+.dean-message-details {
+    width: 75%;
+    display: flex;
+    gap: 10%;
+}
+
+.dean-message-content {
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+}
+
+.dean-message-photo-img {
+    margin-top: -70px;
+    border-radius: 50%;
+    width: 320px;
+}
+
+.dean-message-all-1 {
+    background-color: white;
+    height: auto;
+    padding-top: 8%;
+    padding-bottom: 5%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6vh;
+    color: black;
+    border-bottom: #333 solid 0.1px;
+}
+
+.dean-message-heading-1 {
+    width: 75%;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+    font-size: 100px;
+}
+
+.dean-message-details-1 {
+    width: 75%;
+    display: flex;
+    gap: 10%;
+}
+
+.dean-message-content-1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+}
+
+.dean-message-photo-img-1 {
+    margin-top: -70px;
+    border-radius: 50%;
+    width: 320px;
+}
+
+.main-staff-all {
+    background-color: white;
+    height: auto;
+    padding-top: 8%;
+    padding-bottom: 5%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6vh;
+    color: black;
+    border-bottom: #333 solid 0.1px;
+}
+
+.main-staff-heading {
+    width: 75%;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+    font-size: 100px;
+}
+
+.main-staff-content {
+    width: 75%;
+    display: flex;
+    gap: 10%;
+}
+
+.main-staff-content-item {
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-staff-content-item-img {
+    border-radius: 50%;
+    width: 340px;
+    height: 340px;
+}
+
+.main-staff-content-item-name {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.main-staff-content-item-position {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #777;
+}
+
+.gallery-home-div {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.gallery-home-heading {
+    margin-right: 10%;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+    font-size: 100px;
+    margin-bottom: 80px;
+}
+
+.gallery-home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 200px;
+}
+
+.img4h {
+    width: 61vw;
+    height: 20vw;
+    grid-column: span 2;
+}
+
+.img5h {
+    width: 30vw;
+    height: 20vw;
+}
+
+.spanrowh {
+    width: 30vw;
+    height: 41vw;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.tender-home-div {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    padding-bottom: 150px;
+}
+
+.tender-home-head {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.tender-home-head-heading {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+    font-size: 100px;
+}
+
+.tender-home-head-button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.table-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    color: black;
+    margin-top: 80px;
+}
+
+.search-input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+.searchable-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.searchable-table th {
+    background-color: #fafafa;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    text-align: left;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.searchable-table td {
+    padding: 30px;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.no-data {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+}
+
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .home-all {
+        background-color: transparent;
+        color: white;
+        height: auto;
+        width: 100%;
+        position: relative;
+    }
+
+    .home-bg {
+        background-size: cover;
+        filter: brightness(60%);
+        position: fixed;
+        height: 100vh;
+        width: 100vw;
+        object-fit: cover;
+        z-index: -10;
+    }
+
+    .hero {
+        width: 100vw;
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        height: 100vh;
+    }
+
+    .hero-head-first {
+        font-family: "DM Sans", sans-serif;
+        font-size: 7.2vw;
+        font-weight: 300;
+        color: #f5eee6;
+        letter-spacing: 3px;
+        width: 65vw;
+    }
+
+
+    .hero-head-second {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 300;
+        margin-top: 450px;
+        font-size: 3vw;
+        color: rgb(243, 219, 199);
+        letter-spacing: 2px;
+    }
+
+
+    .cmd-intro-1 {
+        background-color: rgba(0, 0, 0, 0);
+        height: 100vh;
+        width: 100%;
+        gap: 3%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cmd-intro-heading-1 {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        font-size: 5.5vw;
+    }
+
+    .cmd-intro-content-1 {
+        width: 74%;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.3vw;
+        text-align: center;
+    }
+
+
+    .cmd-intro-logo-img {
+        border-radius: 50%;
+    }
+
+    .dean-message-all {
+        background-color: white;
+        height: auto;
+        padding-top: 8%;
+        padding-bottom: 5%;
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6vh;
+        color: black;
+        border-bottom: #333 solid 0.1px;
+    }
+
+    .dean-message-heading {
+        width: 75%;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        font-size: 100px;
+    }
+
+    .dean-message-details {
+        width: 75%;
+        display: flex;
+        gap: 10%;
+    }
+
+    .dean-message-content {
+        font-family: "Poppins", sans-serif;
+        font-size: 26px;
+    }
+
+    .dean-message-photo-img {
+        margin-top: -70px;
+        border-radius: 50%;
+        width: 320px;
+    }
+
+    .dean-message-all-1 {
+        background-color: white;
+        height: auto;
+        padding-top: 8%;
+        padding-bottom: 5%;
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6vh;
+        color: black;
+        border-bottom: #333 solid 0.1px;
+    }
+
+    .dean-message-heading-1 {
+        width: 75%;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        font-size: 100px;
+    }
+
+    .dean-message-details-1 {
+        width: 75%;
+        display: flex;
+        gap: 10%;
+    }
+
+    .dean-message-content-1 {
+        font-family: "Poppins", sans-serif;
+        font-size: 26px;
+    }
+
+    .dean-message-photo-img-1 {
+        margin-top: -70px;
+        border-radius: 50%;
+        width: 320px;
+    }
+
+    .main-staff-all {
+        background-color: white;
+        height: auto;
+        padding-top: 8%;
+        padding-bottom: 5%;
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6vh;
+        color: black;
+        border-bottom: #333 solid 0.1px;
+    }
+
+    .main-staff-heading {
+        width: 75%;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        font-size: 100px;
+    }
+
+    .main-staff-content {
+        width: 75%;
+        display: flex;
+        gap: 10%;
+    }
+
+    .main-staff-content-item {
+        font-family: "Poppins", sans-serif;
+        font-size: 26px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-staff-content-item-img {
+        border-radius: 50%;
+        width: 320px;
+    }
+
+    .main-staff-content-item-name {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        margin-top: 10px;
+        color: #333;
+    }
+
+    .main-staff-content-item-position {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #777;
+    }
+
+    .gallery-home-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+        width: 100vw;
+    }
+
+    .gallery-home-heading {
+        margin-right: 0;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        font-size: 4vw;
+        margin-bottom: 80px;
+    }
+
+    .gallery-home-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0.4vw;
+        margin-bottom: 200px;
+    }
+
+    .img4h {
+        width: 45.75vw;
+        height: 15vw;
+        grid-column: span 2;
+    }
+
+    .img5h {
+        width: 22.5vw;
+        height: 15vw;
+    }
+
+    .spanrowh {
+        width: 22.5vw;
+        height: 30.75vw;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+
+    .tender-home-div {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        color: black;
+        padding-bottom: 150px;
+    }
+
+    .tender-home-head {
+        margin-top: 100px;
+        display: flex;
+        gap: 1020px;
+    }
+
+    .tender-home-head-heading {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        font-size: 100px;
+    }
+
+    .tender-home-head-button {
+        font-family: 'Poppins', sans-serif;
+        font-size: 23px;
+        color: black;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+
+    .table-container {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        color: black;
+        margin-top: 80px;
+    }
+
+    .search-input {
+        padding: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 15px;
+    }
+
+    .searchable-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+    }
+
+    .searchable-table th {
+        background-color: #fafafa;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 25px;
+        text-align: left;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+
+    .searchable-table td {
+        padding: 30px;
+        font-size: 16px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .no-data {
+        text-align: center;
+        padding: 20px;
+        color: #888;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+    .home-all {
+        background-color: transparent;
+        color: white;
+        height: auto;
+        width: 100%;
+    }
+
+    .home-bg {
+        background-size: cover;
+        filter: brightness(100%);
+        position: fixed;
+        width: 100vw;
+        z-index: -10;
+    }
+
+    .hero {
+        width: 100vw;
+        display: flex;
+        align-items: end;
+        gap: 370px;
+        height: 100vh;
+    }
+
+    .hero-head-first {
+        font-family: "DM Sans", sans-serif;
+        font-size: 7.2vw;
+        font-weight: 300;
+        color: #f5eee6;
+        letter-spacing: 3px;
+        width: 65vw;
+    }
+
+
+    .hero-head-second {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 300;
+        margin-top: 450px;
+        font-size: 40px;
+        color: rgb(243, 219, 199);
+        letter-spacing: 2px;
+    }
+
+
+    .cmd-intro-1 {
+        background-color: rgba(0, 0, 0, 0);
+        height: 100vh;
+        width: 100%;
+        gap: 3%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cmd-intro-heading-1 {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        font-size: 5.5vw;
+    }
+
+    .cmd-intro-content-1 {
+        width: 74%;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.3vw;
+        text-align: center;
+    }
+
+
+    .cmd-intro-logo-img {
+        border-radius: 50%;
+    }
+
+    .dean-message-all {
+        background-color: white;
+        height: auto;
+        padding-top: 8%;
+        padding-bottom: 5%;
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6vh;
+        color: black;
+        border-bottom: #333 solid 0.1px;
+    }
+
+    .dean-message-heading {
+        width: 75%;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        font-size: 100px;
+    }
+
+    .dean-message-details {
+        width: 75%;
+        display: flex;
+        gap: 10%;
+    }
+
+    .dean-message-content {
+        font-family: "Poppins", sans-serif;
+        font-size: 26px;
+    }
+
+    .dean-message-photo-img {
+        margin-top: -70px;
+        border-radius: 50%;
+        width: 320px;
+    }
+
+    .dean-message-all-1 {
+        background-color: white;
+        height: auto;
+        padding-top: 8%;
+        padding-bottom: 5%;
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6vh;
+        color: black;
+        border-bottom: #333 solid 0.1px;
+    }
+
+    .dean-message-heading-1 {
+        width: 75%;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        font-size: 100px;
+    }
+
+    .dean-message-details-1 {
+        width: 75%;
+        display: flex;
+        gap: 10%;
+    }
+
+    .dean-message-content-1 {
+        font-family: "Poppins", sans-serif;
+        font-size: 26px;
+    }
+
+    .dean-message-photo-img-1 {
+        margin-top: -70px;
+        border-radius: 50%;
+        width: 320px;
+    }
+
+    .main-staff-all {
+        background-color: white;
+        height: auto;
+        padding-top: 8%;
+        padding-bottom: 5%;
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6vh;
+        color: black;
+        border-bottom: #333 solid 0.1px;
+    }
+
+    .main-staff-heading {
+        width: 75%;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        font-size: 100px;
+    }
+
+    .main-staff-content {
+        width: 75%;
+        display: flex;
+        gap: 10%;
+    }
+
+    .main-staff-content-item {
+        font-family: "Poppins", sans-serif;
+        font-size: 26px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-staff-content-item-img {
+        border-radius: 50%;
+        width: 320px;
+    }
+
+    .main-staff-content-item-name {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        margin-top: 10px;
+        color: #333;
+    }
+
+    .main-staff-content-item-position {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #777;
+    }
+
+    .gallery-home-div {
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+    }
+
+    .gallery-home-heading {
+        margin-right: 1%;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        font-size: 100px;
+        margin-bottom: 80px;
+    }
+
+    .gallery-home-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 10px;
+        margin-bottom: 200px;
+    }
+
+    .img4h {
+        width: 61vw;
+        height: 20vw;
+        grid-column: span 2;
+    }
+
+    .img5h {
+        width: 30vw;
+        height: 20vw;
+    }
+
+    .spanrowh {
+        width: 30vw;
+        height: 41vw;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+
+    .tender-home-div {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        color: black;
+        padding-bottom: 150px;
+    }
+
+    .tender-home-head {
+        margin-top: 100px;
+        display: flex;
+        gap: 1020px;
+    }
+
+    .tender-home-head-heading {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        font-size: 100px;
+    }
+
+    .tender-home-head-button {
+        font-family: 'Poppins', sans-serif;
+        font-size: 23px;
+        color: black;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+
+    .table-container {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        color: black;
+        margin-top: 80px;
+    }
+
+    .search-input {
+        padding: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 15px;
+    }
+
+    .searchable-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+    }
+
+    .searchable-table th {
+        background-color: #fafafa;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 25px;
+        text-align: left;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+
+    .searchable-table td {
+        padding: 30px;
+        font-size: 16px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .no-data {
+        text-align: center;
+        padding: 20px;
+        color: #888;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .home-all {
+        background-color: transparent;
+        color: white;
+        height: auto;
+        width: 100%;
+    }
+
+    .home-bg {
+        background-size: cover;
+        filter: brightness(60%);
+        position: fixed;
+        height: 100vh;
+        width: 100vw;
+        object-fit: cover;
+        z-index: -10;
+    }
+
+    .hero {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 5vh;
+    }
+
+    .hero-head-first {
+        font-family: "DM Sans", sans-serif;
+        font-size: 10vw;
+        font-weight: 300;
+        color: #f5eee6;
+        letter-spacing: 3px;
+        width: 90%;
+    }
+
+
+    .hero-head-second {
+        font-family: "DM Sans", sans-serif;
+        font-size: 4vw;
+        margin-top: 0;
+        margin-bottom: 20vh;
+        color: rgb(243, 219, 199);
+        letter-spacing: 2px;
+    }
+
+
+    .cmd-intro-1 {
+        background-color: rgba(0, 0, 0, 0);
+        height: 100vh;
+        width: 100%;
+        gap: 7vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cmd-intro-heading-1 {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        font-size: 10vw;
+        color: #000000;
+    }
+
+    .cmd-intro-content-1 {
+        width: 74%;
+        font-family: "Poppins", sans-serif;
+        font-size: 4vw;
+        text-align: center;
+        color: #000000;
+    }
+
+
+    .cmd-intro-logo-img {
+        border-radius: 50%;
+    }
+
+    .dean-message-all {
+        background-color: white;
+        height: auto;
+        padding-top: 8%;
+        padding-bottom: 5%;
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6vh;
+        color: black;
+        border-bottom: #333 solid 0.1px;
+    }
+
+    .dean-message-heading {
+        width: 75%;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        font-size: 30px;
+    }
+
+    .dean-message-details {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vh;
+        margin-bottom: 3vh;
+    }
+
+    .dean-message-content {
+        width: 80vw;
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+    }
+
+    .dean-message-photo-img {
+        margin-top: 0;
+        border-radius: 50%;
+        width: 200px;
+    }
+
+    .dean-message-all-1 {
+        background-color: white;
+        height: auto;
+        padding-top: 8%;
+        padding-bottom: 5%;
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6vh;
+        color: black;
+        border-bottom: #333 solid 0.1px;
+    }
+
+    .dean-message-heading-1 {
+        width: 75%;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        font-size: 30px;
+    }
+
+    .dean-message-details-1 {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vh;
+        margin-bottom: 3vh;
+    }
+
+    .dean-message-content-1 {
+        width: 80vw;
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+    }
+
+    .dean-message-photo-img-1 {
+        margin-top: 0;
+        border-radius: 50%;
+        width: 200px;
+    }
+
+
+    .main-staff-all {
+        background-color: white;
+        height: auto;
+        padding-top: 8%;
+        padding-bottom: 5%;
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6vh;
+        color: black;
+        border-bottom: #333 solid 0.1px;
+    }
+
+    .main-staff-heading {
+        width: 75%;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        font-size: 10vw;
+    }
+
+    .main-staff-content {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        column-gap: 10vh;
+    }
+
+    .main-staff-content-item {
+        font-family: "Poppins", sans-serif;
+        font-size: 26px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-staff-content-item-img {
+        border-radius: 50%;
+        width: 320px;
+    }
+
+    .main-staff-content-item-name {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        margin-top: 10px;
+        color: #333;
+    }
+
+    .main-staff-content-item-position {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #777;
+    }
+
+    .gallery-home-div {
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+    }
+
+    .gallery-home-heading {
+        margin-right: 0px;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        font-size: 40px;
+        margin-bottom: 80px;
+    }
+
+    .gallery-home-grid {
+        margin-top: 9px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 1px;
+        margin-bottom: 15px;
+    }
+
+    .img4h {
+        width: 91px;
+        height: 30px;
+        grid-column: span 2;
+    }
+
+    .img5h {
+        width: 45px;
+        height: 30px;
+    }
+
+    .spanrowh {
+        width: 45px;
+        height: 61px;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+
+    .tender-home-div {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        color: black;
+        padding-bottom: 150px;
+    }
+
+    .tender-home-head {
+        margin-top: 100px;
+        display: flex;
+        gap: 1020px;
+    }
+
+    .tender-home-head-heading {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        font-size: 100px;
+    }
+
+    .tender-home-head-button {
+        font-family: 'Poppins', sans-serif;
+        font-size: 23px;
+        color: black;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+
+    .table-container {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        color: black;
+        margin-top: 80px;
+    }
+
+    .search-input {
+        padding: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 15px;
+    }
+
+    .searchable-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+    }
+
+    .searchable-table th {
+        background-color: #fafafa;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 25px;
+        text-align: left;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+
+    .searchable-table td {
+        padding: 30px;
+        font-size: 16px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .no-data {
+        text-align: center;
+        padding: 20px;
+        color: #888;
+    }
+
+
+
+
+
+}
