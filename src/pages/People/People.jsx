@@ -74,7 +74,7 @@ const People = () => {
   return (
     <div className='people-all'>
       <div className='pdf-container'>
-        <img src={organo} alt="yoo" />
+        <img src={organo} alt="yoo" className='to-remove'/>
       </div>
       <div class="people-navi-div">
         <div class="people-navi-left">

@@ -42,6 +42,29 @@ const Home = () => {
     });
   }, []);
 
+
+  // useEffect(() => {
+  //   const mediaQuery = gsap.utils.matchMedia();
+  
+  //   mediaQuery.add("(min-width: 993px)", () => {
+  //     // Add your GSAP animation for larger screens
+  //     gsap.to(homeRef.current, {
+  //       scrollTrigger: {
+  //         trigger: containerRef.current,
+  //         start: "top top",
+  //         end: "100%",
+  //         scrub: 2,
+  //       },
+  //       backgroundColor: "rgba(0,0,0,1)",
+  //       duration: 3,
+  //       ease: "power2.inOut",
+  //     });
+  //   });
+  
+  //   // Clean up on component unmount
+  //   return () => mediaQuery.revert();
+  // }, []);
+  
   
   return (
     <div ref={homeRef}>
@@ -111,7 +134,7 @@ const Home = () => {
  */}
 
         <div className='past-dean-div'>
-          <h1 className='past-dean-heading'>PAST DEANS</h1>
+          <h1 className='past-dean-heading'>MAIN STAFF</h1>
           <div className='past-dean-members-all'>
             <div className='past-dean-member'>
               <img className='past-dean-img' src={Ravindra_MS} alt="Dean img" loading='lazy' />
