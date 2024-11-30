@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import './InfraOther.css';
-import hostel from '../../assets/Images/ted1.jpg';
-import video from '../../assets/Videos/Cover.mp4';
 import SNCC from '../../assets/Images/Infra/SNCC2.jpg';
-import GROUND from '../../assets/Images/Infra/SNCC3.jpg';
 import HOSPITAL from '../../assets/Images/Infra/HOSPITAL.png';
 import feat_sncc from '../../assets/Images/Feat_Infra/feat_sncc.png';
 import feat_hosp from '../../assets/Images/Feat_Infra/feat_hosp.png';

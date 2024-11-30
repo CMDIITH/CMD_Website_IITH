@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './InfraAcademic.css';
 
-
 import phase1_2 from '../../assets/Images/Gallery/PHASE1_2.jpeg';
 import phase1_5 from '../../assets/Images/Gallery/PHASE1_5.jpeg';
 import phase1_6 from '../../assets/Images/Gallery/PHASE1_6.jpeg';

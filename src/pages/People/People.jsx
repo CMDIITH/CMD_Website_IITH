@@ -1,8 +1,6 @@
 import React from 'react'
-import Dean from '../../assets/Images/People/Prof_Suriya_S_Prakash_Dean(Planning).jpg';
 import './People.css'
 import organo from '../../assets/Images/organo_cmd.png';
-import dummy from '../../assets/Images/People/people.png';
 import s_pramod_kumar from '../../assets/Images/People/S Pramod Kumar.png';
 import datla_praveen_kumar from '../../assets/Images/People/Datla Praveen Kumar.png';
 import menda_chiranjeevi from '../../assets/Images/People/Menda Chiranjeevi.png';
@@ -29,10 +27,10 @@ import m_yedukondalu from '../../assets/Images/People/M Yedukondalu.png';
 import n_kalyan_kumar from '../../assets/Images/People/N Kalyan Kumar.png';
 import gosu_srinivas from '../../assets/Images/People/Gosu Srinivas.png';
 import p_srinivas from '../../assets/Images/People/P Srinivas.png';
-
 import KVL_PD from '../../assets/Images/People/KVL_PD.png';
 import Sireesh_PD from '../../assets/Images/People/Sireesh_PDD.png';
 import Phanindra_PD from '../../assets/Images/People/Phanindra_PDD.png';
+
 
 const civilStaffMembers = [
   { name: "S Pramod Kumar", position: "Assistant Executive Engineer(Civil)", image: s_pramod_kumar },
@@ -47,6 +45,7 @@ const civilStaffMembers = [
   { name: "Gummadi Anil Kumar", position: "Junior Engineer (Civil)", image: gummadi_anil_kumar },
   { name: "Marmala Ranadeep Kumar", position: "Junior Engineer (Civil)", image: marmala_ranadeep_kumar },
 ];
+
 
 const electricalStaffMembers = [
   { name: "P Srinivasulu Yadav", position: "Assistant Executive Engineer(Electrical)", image: p_srinivasulu_yadav },
@@ -69,6 +68,7 @@ const otherCivilStaffMembers = [
   { name: "Gosu Srinivas", position: "Accountant", image: gosu_srinivas },
   { name: "P Srinivas", position: "Junior Assistant", image: p_srinivas },
 ];
+
 
 const People = () => {
   return (
