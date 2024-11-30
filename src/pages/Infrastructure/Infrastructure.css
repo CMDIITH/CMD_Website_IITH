@@ -1,5 +1,6 @@
 .infra-all {
     padding-top: 200px;
+    width: 100%;
 }
 
 
@@ -21,8 +22,8 @@
 .infra-unique-heading {
     font-family: "DM Sans", sans-serif;
     font-weight: 200;
-    font-size: 100px;
-    margin-left: 200px;
+    font-size: 5.2vw;
+    margin-left: 9%;
     margin-bottom: 70px;
 }
 
@@ -73,8 +74,8 @@
 .infra-build-navi-heading {
     font-family: "DM Sans", sans-serif;
     font-weight: 200;
-    font-size: 100px;
-    margin-left: 200px;
+    font-size: 5.2vw;
+    margin-left: 9%;
 }
 
 
@@ -129,27 +130,27 @@
 }
 
 .infra-vision {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     margin-bottom: 150px;
-    padding-left: 6%;
+    /* padding-left: 6%; */
 }
 
 .infra-vision-heading {
     font-family: "DM Sans", sans-serif;
     font-weight: 200;
-    font-size: 100px;
-    margin-right: auto;
+    font-size: 5.2vw;
+    margin-left: 9%;
 }
 
 .infra-vision-subhead {
     font-family: "DM Sans", sans-serif;
     font-weight: 300;
-    font-size: 70px;
+    font-size: 3.64vw;
     color: purple;
     border-bottom: purple solid 3px;
     margin-top: 70px;
-    margin-right: auto;
+    margin-left: 9%;
     margin-bottom: 10px;
     width: 75%;
 }
@@ -158,13 +159,13 @@
     width: 75%;
     text-align: left;
     font-family: "Poppins", sans-serif;
-    margin-right: auto;
-    font-size: 22px;
+    margin-left: 9%;
+    font-size: 1.14vw;
 }
 
 @media screen and (max-width: 992px) {
     .infra-all {
-        padding-top: 20vw;
+        padding-top: 30vw;
     }
 
 
@@ -186,14 +187,14 @@
     .infra-unique-heading {
         font-family: "DM Sans", sans-serif;
         font-weight: 200;
-        font-size: 10vw;
+        font-size: 13vw;
         margin-left: 2vw;
         margin-top: 7vh;
-        margin-bottom: 7px;
+        margin-bottom: -12px;
     }
 
     .infra-unique-card-left {
-        width: 98vw;
+        width: 90vw;
         display: flex;
         gap: 15px;
         padding: 2px;
@@ -218,7 +219,7 @@
 
 
     .infra-unique-card-right {
-        width: 98vw;
+        width: 90vw;
         display: flex;
         gap: 15px;
         padding: 2px;
@@ -231,7 +232,7 @@
     }
 
     .infra-unique-card-para {
-        width: 98vw;
+        width: 90vw;
         font-family: "Poppins", sans-serif;
         font-size: 18px;
     }
@@ -239,7 +240,7 @@
     .infra-build-navi-heading {
         font-family: "DM Sans", sans-serif;
         font-weight: 200;
-        font-size: 10vw;
+        font-size: 13vw;
         margin-top: 4vh;
         margin-left: 2vw;
     }
@@ -308,29 +309,30 @@
     .infra-vision-heading {
         font-family: "DM Sans", sans-serif;
         font-weight: 200;
-        font-size: 15vw;
+        font-size: 13vw;
         margin-right: auto;
         margin-left: 2vw;
+        margin-bottom: 10px;
     }
 
     .infra-vision-subhead {
         font-family: "DM Sans", sans-serif;
         font-weight: 300;
-        font-size: 4vw;
+        font-size: 7vw;
         color: purple;
         border-bottom: purple solid 3px;
         margin-top: 7px;
         margin-right: auto;
-        margin-left: 2vw;
+        margin-left: 4vw;
         margin-bottom: 1px;
     }
 
     .infra-vision-content {
-        width: 98vw;
+        width: 92vw;
         text-align: left;
         font-family: "Poppins", sans-serif;
         margin-right: auto;
-        margin-left: 2vw;
+        margin-left: 4vw;
         margin-top: 1vw;
         font-size: 4vw;
     }

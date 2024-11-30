@@ -17,13 +17,13 @@
     font-family: "DM Sans", sans-serif;
     font-weight: 200;
     margin-right: auto;
-    margin-left: 90px;
-    font-size: 100px;
+    margin-left: 9%;
+    font-size: 5.2vw;
     margin-bottom: 20px;
 }
 
 .phases-masterplan-map {
-    width: 1750px;
+    width: 91vw;
 }
 
 .phases-phase-1 {
@@ -39,20 +39,21 @@
     font-family: "DM Sans", sans-serif;
     font-weight: 200;
     margin-right: auto;
-    margin-left: 270px;
-    font-size: 100px;
+    margin-left: 9%;
+    font-size: 5.2vw;
 }
 
 .phases-phase-1-content {
+    margin-top: 40px;
     font-family: 'Poppins', sans-serif;
-    width: 1400px;
-    font-size: 24px;
+    width: 73vw;
+    font-size: 1.2vw;
 }
 
 .future-plan-content {
     font-family: 'Poppins', sans-serif;
-    width: 1740px;
-    font-size: 23px;
+    width: 90.6vw;
+    font-size: 1.2vw;
     margin-bottom: 40px;
 }
 
@@ -68,23 +69,23 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 10px;
-    margin-bottom: 150px;
+    margin-bottom: 0.52vw;
 }
 
 .img4 {
-    width: 910px;
-    height: 300px;
+    width: 47.4vw;
+    height: 15.625vw;
     grid-column: span 2;
 }
 
 .img5 {
-    width: 450px;
-    height: 300px;
+    width: 23.43vw;
+    height: 15.625vw;
 }
 
 .spanrow {
-    width: 450px;
-    height: 610px;
+    width: 23.43vw;
+    height: 31.78vw;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
@@ -100,8 +101,8 @@
     font-family: "DM Sans", sans-serif;
     font-weight: 200;
     margin-right: auto;
-    margin-left: 90px;
-    font-size: 100px;
+    margin-left: 9%;
+    font-size: 5.2vw;
     margin-bottom: -50px;
 }
 
@@ -135,7 +136,7 @@
         font-weight: 200;
         margin-right: auto;
         margin-left: 2vw;
-        font-size: 100px;
+        font-size: 15vw;
         margin-bottom: 20px;
     }
 
@@ -169,7 +170,7 @@
     .future-plan-content {
         font-family: 'Poppins', sans-serif;
         width: 90vw;
-        font-size: 20px;
+        font-size: 4vw;
         margin-bottom: 40px;
     }
 

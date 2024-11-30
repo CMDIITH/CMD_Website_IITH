@@ -6,10 +6,11 @@
 }
 
 .gallery-heading {
-    margin-right: 1020px;
     font-family: "DM Sans", sans-serif;
     font-weight: 200;
-    font-size: 100px;
+    font-size: 5.2vw;
+    margin-right: auto;
+    margin-left: 10%;
     margin-bottom: 80px;
 }
 
@@ -17,18 +18,18 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 0.52vw;
     margin-bottom: -300px;
 }
 
 .img1 {
-    width: 500px;
-    height: 300px;
+    width: 26vw;
+    height: 15.625vw;
 }
 
 .img3 {
-    width: 500px;
-    height: 610px;
+    width: 26vw;
+    height: 31.875vw;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -39,20 +40,81 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 0.52vw;
     margin-bottom: -300px;
 }
 
 .img8 {
-    width: 500px;
-    height: 300px;
+    width: 26vw;
+    height: 15.625vw;
 }
 
 .img9 {
-    width: 500px;
-    height: 610px;
+    width: 26vw;
+    height: 31.77vw;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
+}
+
+
+@media screen and (max-width: 992px)  {
+
+    .gallery-grid-right .img3 {
+        display: none;
+    }
+
+    .gallery-grid-left .img9 {
+        display: none;
+    }
+
+    .gallery-all {
+        padding-top: 150px;
+    }
+
+    .gallery-heading {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 200;
+        font-size: 15vw;
+        margin-right: auto;
+        margin-left: 10%;
+        margin-bottom: 80px;
+    }
+
+    .gallery-grid-all {
+        margin-top: -60px;
+        margin-bottom: 1px;
+    }
+
+    .gallery-grid-right {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr ;
+        gap: 0.52vw;
+        margin-bottom: 2px;
+    }
+
+    .img1 {
+        width: 45vw;
+        height: 30vw;
+    }
+
+    .gallery-grid-left {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr ;
+        gap: 0.52vw;
+        margin-bottom: 2px;
+    }
+
+    .img8 {
+        width: 45vw;
+        height: 30vw;
+    }
+
+    .final-for-mobile {
+        margin-bottom: -120px;
+    }
+
 }

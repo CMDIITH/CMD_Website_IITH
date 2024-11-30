@@ -42,75 +42,7 @@ const Home = () => {
     });
   }, []);
 
-  const [searchTerm, setSearchTerm] = useState('');
-
-  const homeTenders = [
-    {
-      id: '001',
-      category: 'Construction',
-      title: 'Building Renovation',
-      value: '$50,000',
-      deadline: '2024-10-15',
-      openingDate: '2024-10-20',
-      documentUrl: 'document1.pdf'
-    },
-    {
-      id: '001',
-      category: 'Construction',
-      title: 'Building Renovation',
-      value: '$50,000',
-      deadline: '2024-10-15',
-      openingDate: '2024-10-20',
-      documentUrl: 'document1.pdf'
-    },
-    {
-      id: '002',
-      category: 'Construction',
-      title: 'Building Renovation',
-      value: '$50,000',
-      deadline: '2024-10-15',
-      openingDate: '2024-10-20',
-      documentUrl: 'document1.pdf'
-    },
-    {
-      id: '003',
-      category: 'Construction',
-      title: 'Building Renovation',
-      value: '$50,000',
-      deadline: '2024-10-15',
-      openingDate: '2024-10-20',
-      documentUrl: 'document1.pdf'
-    },
-    {
-      id: '004',
-      category: 'Construction',
-      title: 'Building Renovation',
-      value: '$50,000',
-      deadline: '2024-10-15',
-      openingDate: '2024-10-20',
-      documentUrl: 'document1.pdf'
-    },
-    {
-      id: '005',
-      category: 'Construction',
-      title: 'Building Renovation',
-      value: '$50,000',
-      deadline: '2024-10-15',
-      openingDate: '2024-10-20',
-      documentUrl: 'document1.pdf'
-    },
-  ];
-
-  const handleSearch = (event) => {
-    setSearchTerm(event.target.value);
-  };
-
-  const filteredData = homeTenders.filter((item) =>
-    item.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    item.category.toLowerCase().includes(searchTerm.toLowerCase())
-  );
-
-
+  
   return (
     <div ref={homeRef}>
 
@@ -154,7 +86,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-
+        {/* 
         <div className='main-staff-all'>
           <h1 className='main-staff-heading'>MAIN STAFF</h1>
           <div className='main-staff-content'>
@@ -176,6 +108,28 @@ const Home = () => {
           </div>
         </div>
 
+ */}
+
+        <div className='past-dean-div'>
+          <h1 className='past-dean-heading'>PAST DEANS</h1>
+          <div className='past-dean-members-all'>
+            <div className='past-dean-member'>
+              <img className='past-dean-img' src={Ravindra_MS} alt="Dean img" loading='lazy' />
+              <h2 className='past-dean-member-name'>K S Ravindra Babu</h2>
+              <h3 className='past-dean-position'>Superintending Engineer</h3>
+            </div>
+            <div className='past-dean-member'>
+              <img className='past-dean-img' src={sateesh} alt="Dean img" loading='lazy' />
+              <h2 className='past-dean-member-name'>Mahankali Sateesh</h2>
+              <h3 className='past-dean-position'>Executive Engineer (Civil)</h3>
+            </div>
+            <div className='past-dean-member'>
+              <img className='past-dean-img' src={Sushant_Vasta} alt="Dean img" loading='lazy' />
+              <h2 className='past-dean-member-name'>Sushant Vatsa</h2>
+              <h3 className='past-dean-position'>Executive Engineer (Electrical)</h3>
+            </div>
+          </div>
+        </div>
 
         <div className="gallery-home-div">
           <h2 className="gallery-home-heading">GALLERY</h2>
@@ -187,58 +141,6 @@ const Home = () => {
             <img src={grid5} className="spanrowh" />
             <img src={grid6} className="img5h" />
             <img src={grid7} className="img5h" />
-          </div>
-        </div>
-
-        <div className="tender-home-div">
-          <div className="tender-home-head">
-            <h1 className='tender-home-head-heading'>TENDERS</h1>
-            <p className='tender-home-head-button' onClick={() => window.location.href = '/tenders'}>
-              All Tenders &#8599;
-            </p>
-          </div>
-          <div className="table-container">
-            <input
-              type="text"
-              placeholder="Search by Tender Title or Tender Category"
-              value={searchTerm}
-              onChange={handleSearch}
-              className="search-input"
-            />
-            <table className="searchable-table">
-              <thead>
-                <tr>
-                  <th>Tender ID</th>
-                  <th>Tender Category</th>
-                  <th>Title</th>
-                  <th>Value of Tender</th>
-                  <th>Deadline</th>
-                  <th>Date of Opening</th>
-                  <th>Document (PDF)</th>
-                </tr>
-              </thead>
-              <tbody>
-                {filteredData.length > 0 ? (
-                  filteredData.map((tender) => (
-                    <tr>
-                      <td>{tender.id}</td>
-                      <td>{tender.category}</td>
-                      <td>{tender.title}</td>
-                      <td>{tender.value}</td>
-                      <td>{tender.deadline}</td>
-                      <td>{tender.openingDate}</td>
-                      <td><a href={tender.documentUrl} target="_blank" rel="noopener noreferrer">View Document</a></td>
-                    </tr>
-                  ))
-                ) : (
-                  <tr>
-                    <td colSpan="4" className="no-data">
-                      No matching records found
-                    </td>
-                  </tr>
-                )}
-              </tbody>
-            </table>
           </div>
         </div>
       </div>

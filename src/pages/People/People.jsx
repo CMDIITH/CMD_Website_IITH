@@ -97,55 +97,22 @@ const People = () => {
           </div>
         </div>
       </div>
-      {/* <div id='past' className='past-dean-div'>
-        <h1 className='past-dean-heading'>PAST DEANS</h1>
-        <div className='past-dean-member-all'>
-          <div className='past-dean-member'>
-            <div className='past-dean-member-detail'>
-              <img className='past-dean-img' src={Dean} alt="imge" />
-              <p className='past-dean-message-content'>
-              During my tenure as Dean, I prioritized the advancement of academic excellence and research initiatives. It was my goal to create an inclusive environment that encouraged collaboration among students and faculty. Together, we embraced innovative teaching methods that enhanced learning experiences. I am proud to have contributed to the legacy of our institution and its commitment to excellence.
-              </p>
-            </div>
-            <h1 className='past-dean-member-name'>Viru Shastra Bhuddhi</h1>
-
-          </div>
-          <div className='past-dean-member'>
-            <div className='past-dean-member-detail'>
-              <img className='past-dean-img' src={Dean} alt="imge" />
-              <p className='past-dean-message-content'>As Dean, I focused on building strong partnerships with industry leaders to enhance our educational offerings. My vision was to ensure that our curriculum aligned with real-world demands, preparing students for successful careers. I championed initiatives that fostered creativity and critical thinking among students. It was an honor to lead such a vibrant academic community during transformative years.
-              </p>
-            </div>
-            <h1 className='past-dean-member-name'>Viru Shastra Bhuddhi</h1>
-
-          </div>
-          <div className='past-dean-member'>
-            <div className='past-dean-member-detail'>
-              <img className='past-dean-img' src={Dean} alt="imge" />
-              <p className='past-dean-message-content'>My time as Dean was dedicated to nurturing talent and fostering a culture of continuous improvement. I aimed to enhance our programs by integrating cutting-edge research and best practices in education. Collaborating with faculty and students, we achieved milestones that strengthened our institution's reputation. I look back with pride on the collective achievements we made together during my leadership.
-              </p>
-            </div>
-            <h1 className='past-dean-member-name'>Viru Shastra Bhuddhi</h1>
-
-          </div>
-        </div>
-      </div> */}
 
       <div className='past-dean-div'>
         <h1 className='past-dean-heading'>PAST DEANS</h1>
         <div className='past-dean-members-all'>
           <div className='past-dean-member'>
-            <img className='past-dean-img' src={KVL_PD} alt="DeanPic" />
+            <img className='past-dean-img' src={KVL_PD} alt="Dean img" loading='lazy'/>
             <h2 className='past-dean-member-name'>KVL Subramanian</h2>
             <h3 className='past-dean-position'>11.11.2017 - 09.11.2017</h3>
           </div>
           <div className='past-dean-member'>
-            <img className='past-dean-img' src={Sireesh_PD} alt="DeanPic" />
+            <img className='past-dean-img' src={Sireesh_PD} alt="Dean img" loading='lazy'/>
             <h2 className='past-dean-member-name'>Sireesh Saride</h2>
             <h3 className='past-dean-position'>16.3.2015 - 17.01.2018</h3>
           </div>
           <div className='past-dean-member'>
-            <img className='past-dean-img' src={Phanindra_PD} alt="DeanPic" />
+            <img className='past-dean-img' src={Phanindra_PD} alt="Dean img" loading='lazy'/>
             <h2 className='past-dean-member-name'>KBVN Phanindra</h2>
             <h3 className='past-dean-position'>18.01.2018 - 17.01.2023</h3>
           </div>
@@ -157,7 +124,7 @@ const People = () => {
         <div className='civil-division-people-all'>
           {civilStaffMembers.map((staff, index) => (
             <div className='civil-division-people' key={index}>
-              <img className='civil-division-people-img' src={staff.image} alt="imge" />
+              <img className='civil-division-people-img' src={staff.image} alt="staff img" loading='lazy'/>
               <h2 className='civil-division-people-name'>{staff.name}</h2>
               <h3 className='civil-division-people-position'>{staff.position}</h3>
             </div>
@@ -171,33 +138,12 @@ const People = () => {
         <div className='civil-division-people-all'>
           {electricalStaffMembers.map((staff, index) => (
             <div className='civil-division-people' key={index}>
-              <img className='civil-division-people-img' src={staff.image} alt="imge" />
+              <img className='civil-division-people-img' src={staff.image} alt="staff img" loading='lazy'/>
               <h2 className='civil-division-people-name'>{staff.name}</h2>
               <h3 className='civil-division-people-position'>{staff.position}</h3>
             </div>
           ))}
-        </div>
-        {/* <h2 className='civil-division-other-people-heading'>OTHER ADMINISTRATION STAFF</h2>
-        <table className='civil-division-table last-table'>
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Position</th>
-              <th>Email</th>
-              <th>Contact No.</th>
-            </tr>
-          </thead>
-          <tbody>
-            {otherCivilStaffMembers.map((staff, index) => (
-              <tr key={index}>
-                <td>{staff.name}</td>
-                <td>{staff.position}</td>
-                <td>{staff.email}</td>
-                <td>{staff.contact}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table> */}
+        </div>   
       </div>
 
 
@@ -206,7 +152,7 @@ const People = () => {
         <div className='civil-division-people-all'>
           {otherCivilStaffMembers.map((staff, index) => (
             <div className='civil-division-people' key={index}>
-              <img className='civil-division-people-img' src={staff.image} alt="imge" />
+              <img className='civil-division-people-img' src={staff.image} alt="staff img" loading='lazy'/>
               <h2 className='civil-division-people-name'>{staff.name}</h2>
               <h3 className='civil-division-people-position'>{staff.position}</h3>
             </div>
