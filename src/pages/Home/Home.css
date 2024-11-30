@@ -273,7 +273,7 @@
         display: flex;
         flex-direction: column;
     }
-
+    
     .hero-head-first {
         position: absolute;
         margin-top: 0px;
@@ -362,6 +362,10 @@
         padding-bottom: 70px;
     }
 
+    .gallery-home-div {
+        padding-top: 50px;
+    }
+
     .gallery-home-heading {
         font-family: "DM Sans", sans-serif;
         font-weight: 200;
@@ -436,8 +440,9 @@
         color: #777;
     }
 
-
     .dean-message-all {
+        padding-top: 0%;
+        margin-top: -90px;
         display: flex;
         flex-direction: column;
         align-items: center;

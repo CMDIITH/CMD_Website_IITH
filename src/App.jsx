@@ -8,10 +8,8 @@ import Infrastructure from './pages/Infrastructure/Infrastructure';
 import InfraAcademic from './pages/Infrastructure/InfraAcademic';
 import InfraOther from './pages/Infrastructure/InfraOther';
 import InfraResidence from './pages/Infrastructure/InfraResidence';
-import Complaints from './pages/Complaints/Complaints';
 import Gallery from './pages/Gallery/Gallery';
 import Phases from './pages/Phases/Phases';
-import Tenders from './pages/Tenders/Tenders';
 import './App.css'
 
 function AppContent() {
@@ -26,10 +24,8 @@ function AppContent() {
         <Route path='/infrastructure/academic' exact element={<InfraAcademic />} />
         <Route path='/infrastructure/others' exact element={<InfraOther />} />
         <Route path='/infrastructure/residence' exact element={<InfraResidence />} />
-        <Route path='/complaints' exact element={<Complaints />} />
         <Route path='/gallery' exact element={<Gallery />} />
         <Route path='/phases' exact element={<Phases />} />
-        <Route path='/tenders' exact element={<Tenders />} />
       </Routes>
       <Footer />
     </>

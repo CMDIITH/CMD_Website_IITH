@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/all';
+import { ScrollTrigger } from 'gsap/all'; 
 import { useNavigate } from 'react-router-dom';
-import { useGSAP } from '@gsap/react';
+
 import './Home.css';
 import Cover1 from '../../assets/Videos/CMD_Hero.mp4';
 import grid1 from '../../assets/Images/Gallery/Gall_1.jpeg';
@@ -20,6 +20,8 @@ import Ravindra_MS from '../../assets/Images/People/Ravindra_MS1.jpeg';
 
 gsap.registerPlugin(ScrollTrigger);
 
+
+
 const Home = () => {
 
   const containerRef = useRef(null);
@@ -27,41 +29,26 @@ const Home = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    gsap.to(homeRef.current, {
-      scrollTrigger: {
-        trigger: containerRef.current,
-        start: 'top top',
-        end: '100%',
-        scrub: 2,
-      },
-      backgroundColor: 'rgba(0,0,0,1)',
-      duration: 3,
-      ease: 'power2.inOut'
+  
+    let mediaQuery = gsap.matchMedia();
+
+    mediaQuery.add("(min-width: 993px)", () => {
+
+      gsap.to(homeRef.current, {
+        scrollTrigger: {
+          trigger: containerRef.current,
+          start: "top top",
+          end: "100%",
+          scrub: 2,
+        },
+        backgroundColor: "rgba(0,0,0,1)",
+        duration: 3,
+        ease: "power2.inOut",
+      });
     });
+  
+    return () => mediaQuery.revert();
   }, []);
-
-
-  // useEffect(() => {
-  //   const mediaQuery = gsap.utils.matchMedia();
-  
-  //   mediaQuery.add("(min-width: 993px)", () => {
-  //     // Add your GSAP animation for larger screens
-  //     gsap.to(homeRef.current, {
-  //       scrollTrigger: {
-  //         trigger: containerRef.current,
-  //         start: "top top",
-  //         end: "100%",
-  //         scrub: 2,
-  //       },
-  //       backgroundColor: "rgba(0,0,0,1)",
-  //       duration: 3,
-  //       ease: "power2.inOut",
-  //     });
-  //   });
-  
-  //   // Clean up on component unmount
-  //   return () => mediaQuery.revert();
-  // }, []);
   
   
   return (
@@ -107,29 +94,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-        {/* 
-        <div className='main-staff-all'>
-          <h1 className='main-staff-heading'>MAIN STAFF</h1>
-          <div className='main-staff-content'>
-            <div className='main-staff-content-item'>
-              <img className='main-staff-content-item-img' src={Ravindra_MS} alt="DeanPic" />
-              <h2 className='main-staff-content-item-name'>K S Ravindra Babu</h2>
-              <h3 className='main-staff-content-item-position'>Superintending Engineer</h3>
-            </div>
-            <div className='main-staff-content-item'>
-              <img className='main-staff-content-item-img' src={sateesh} alt="DeanPic" />
-              <h2 className='main-staff-content-item-name'>Mahankali Sateesh</h2>
-              <h3 className='main-staff-content-item-position'>Executive Engineer (Civil)</h3>
-            </div>
-            <div className='main-staff-content-item'>
-              <img className='main-staff-content-item-img' src={Sushant_Vasta} alt="DeanPic" />
-              <h2 className='main-staff-content-item-name'>Sushant Vatsa</h2>
-              <h3 className='main-staff-content-item-position'>Executive Engineer (Electrical)</h3>
-            </div>
-          </div>
-        </div>
-
- */}
 
         <div className='past-dean-div'>
           <h1 className='past-dean-heading'>MAIN STAFF</h1>

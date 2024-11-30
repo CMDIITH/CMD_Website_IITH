@@ -17,7 +17,7 @@ const InfraResidence = () => {
         setModalData({ isVisible: true, title, videoSrc, content });
     };
 
-    const closeModal = () => {
+    const closeModal = () => {  
         setModalData({ isVisible: false, title: '', videoSrc: '', content: '' });
     };
 

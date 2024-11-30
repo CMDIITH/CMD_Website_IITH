@@ -149,24 +149,23 @@
         height: 45vw;
     }
     
-    
     .modal-overlay {
         position: fixed;
         left: 0;
         right: 0;
         bottom: 0;
+        top: 0%;
         background-color: rgba(0, 0, 0, 0.86);
         display: flex;
         justify-content: center;
         align-items: center;
         z-index: 9999;
-        /* padding-top: 20.45vw; */
     }
     
     .modal-content {
         background-color: white;
-        width: 74vw;
-        height: 47.4vw;
+        width: 90vw;
+        height: 170vw;
         position: relative;
         overflow-y: auto; 
     }
@@ -175,16 +174,17 @@
         position: absolute;
         top: 0.52vw;
         right: 1.04vw;
-        font-size: 1.56vw;
+        font-size: 10vw;
         cursor: pointer;
     }
     
     .modal-content-heading {
         font-family: "DM Sans", sans-serif;
         font-weight: 200;
-        font-size: 2.6vw;
-        margin-top: 1.3vw;
-        margin-left: 1.04vw;
+        font-size: 13vw;
+        margin-right: auto;
+        margin-left: 2.4vw;
+        margin-top: 40px;
     }
     
     .modal-content-video {
@@ -194,20 +194,20 @@
     }
     
     .modal-content-para {
-        width: 67.7vw;
+        width: 82vw;
         text-align: center;
         margin-top: 30px;
         margin-bottom: 30px;
         margin-left: auto;
         margin-right: auto;
-        font-size: 1.14vw;
+        font-size: 4vw;
         font-family: 'Poppins', sans-serif;
     }
     
-    
     .img_inde {
         padding-top: 20px;
-        width: 54.68vw;
-        margin-left: 9.375vw;
+        width: 85vw;
+        height: 50;
+        margin-left: 2vw;
     }
 }
