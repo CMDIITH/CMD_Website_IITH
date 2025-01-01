@@ -104,17 +104,17 @@ const People = () => {
           <div className='past-dean-member'>
             <img className='past-dean-img' src={KVL_PD} alt="Dean img" loading='lazy'/>
             <h2 className='past-dean-member-name'>KVL Subramanian</h2>
-            <h3 className='past-dean-position'>11.11.2017 - 09.11.2017</h3>
+            {/* <h3 className='past-dean-position'>11.11.2017 - 09.11.2017</h3> */}
           </div>
           <div className='past-dean-member'>
             <img className='past-dean-img' src={Sireesh_PD} alt="Dean img" loading='lazy'/>
             <h2 className='past-dean-member-name'>Sireesh Saride</h2>
-            <h3 className='past-dean-position'>16.3.2015 - 17.01.2018</h3>
+            {/* <h3 className='past-dean-position'>16.3.2015 - 17.01.2018</h3> */}
           </div>
           <div className='past-dean-member'>
             <img className='past-dean-img' src={Phanindra_PD} alt="Dean img" loading='lazy'/>
             <h2 className='past-dean-member-name'>KBVN Phanindra</h2>
-            <h3 className='past-dean-position'>18.01.2018 - 17.01.2023</h3>
+            {/* <h3 className='past-dean-position'>18.01.2018 - 17.01.2023</h3> */}
           </div>
         </div>
       </div>
