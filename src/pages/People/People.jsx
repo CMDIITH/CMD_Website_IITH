@@ -92,29 +92,32 @@ const People = () => {
             <p class="people-navi-right-card-content">Meet the Dedicated Electrical Unit Staff Team.</p>
           </div>
           <div class="people-navi-right-card">
-            <h4 class="people-navi-right-card-heading" onClick={() => window.location.href = '#past'}>PAST DEANS &#8595;</h4>
+            <h4 class="people-navi-right-card-heading" onClick={() => window.location.href = '#past-dean'}>PAST DEANS &#8595;</h4>
             <p class="people-navi-right-card-content">Meet our Esteemed Past Deans.</p>
           </div>
         </div>
       </div>
 
-      <div className='past-dean-div'>
+      <div id='past-dean' className='past-dean-div'>
         <h1 className='past-dean-heading'>PAST DEANS</h1>
         <div className='past-dean-members-all'>
           <div className='past-dean-member'>
             <img className='past-dean-img' src={KVL_PD} alt="Dean img" loading='lazy'/>
-            <h2 className='past-dean-member-name'>KVL Subramanian</h2>
-            {/* <h3 className='past-dean-position'>11.11.2017 - 09.11.2017</h3> */}
+            <h2 className='past-dean-member-name'>Prof. K. V.L. Subramaniam</h2>
           </div>
           <div className='past-dean-member'>
             <img className='past-dean-img' src={Sireesh_PD} alt="Dean img" loading='lazy'/>
-            <h2 className='past-dean-member-name'>Sireesh Saride</h2>
-            {/* <h3 className='past-dean-position'>16.3.2015 - 17.01.2018</h3> */}
+            <h2 className='past-dean-member-name'>Prof. Sireesh Saride</h2>
           </div>
+        </div>
+      </div>
+
+      <div className='past-dean-div'>
+        <h1 className='past-dean-heading'>PAST ASSO. DEANS</h1>
+        <div className='past-dean-members-all'>
           <div className='past-dean-member'>
             <img className='past-dean-img' src={Phanindra_PD} alt="Dean img" loading='lazy'/>
-            <h2 className='past-dean-member-name'>KBVN Phanindra</h2>
-            {/* <h3 className='past-dean-position'>18.01.2018 - 17.01.2023</h3> */}
+            <h2 className='past-dean-member-name'>Prof. KBVN Phanindra</h2>
           </div>
         </div>
       </div>
