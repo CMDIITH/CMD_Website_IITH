@@ -97,7 +97,7 @@ const Home = () => {
 
         <div className='past-dean-div'>
           <h1 className='past-dean-heading'>MAIN STAFF</h1>
-          <div className='past-dean-members-all'>
+          <div className='past-dean-members-all-1'>
             <div className='past-dean-member'>
               <img className='past-dean-img' src={Ravindra_MS} alt="Dean img" loading='lazy' />
               <h2 className='past-dean-member-name'>K S Ravindra Babu</h2>
