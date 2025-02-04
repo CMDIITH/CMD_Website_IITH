@@ -30,7 +30,7 @@ import p_srinivas from '../../assets/Images/People/P Srinivas.png';
 import KVL_PD from '../../assets/Images/People/KVL_PD.png';
 import Sireesh_PD from '../../assets/Images/People/Sireesh_PDD.png';
 import Phanindra_PD from '../../assets/Images/People/Phanindra_PDD.png';
-
+import Debraj_Asso from '../../assets/Images/People/Debraj_Asso.png';
 
 const civilStaffMembers = [
   { name: "S Pramod Kumar", position: "Assistant Executive Engineer(Civil)", image: s_pramod_kumar },
@@ -115,6 +115,10 @@ const People = () => {
       <div className='past-dean-div'>
         <h1 className='past-dean-heading'>PAST ASSO. DEANS</h1>
         <div className='past-dean-members-all'>
+          <div className='past-dean-member'>
+            <img className='past-dean-img' src={Debraj_Asso} alt="Dean img" loading='lazy'/>
+            <h2 className='past-dean-member-name'>Prof. Debraj Bhattacharya</h2>
+          </div>
           <div className='past-dean-member'>
             <img className='past-dean-img' src={Phanindra_PD} alt="Dean img" loading='lazy'/>
             <h2 className='past-dean-member-name'>Prof. KBVN Phanindra</h2>

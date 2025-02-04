@@ -102,12 +102,6 @@
     gap: 17vw;
 }
 
-.past-dean-members-all-1 {
-    width: 75%;
-    display: flex;
-    justify-content: space-between;
-}
-
 .past-dean-member {
     font-family: "Poppins", sans-serif;
     font-size: 26px;
@@ -126,13 +120,6 @@
     font-weight: 400;
     font-size: 1.8vw;
     margin-top: 30px;
-    color: white;
-}
-
-.past-dean-position {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 1.6vw;
     color: white;
 }
 

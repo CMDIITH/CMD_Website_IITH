@@ -13,13 +13,12 @@ import grid5 from '../../assets/Images/Gallery/Gall_5.jpeg';
 import grid6 from '../../assets/Images/Gallery/Gall_6.jpeg';
 import grid7 from '../../assets/Images/Gallery/Gall_7.jpeg';
 import Dean from '../../assets/Images/People/Prof_Suriya_S_Prakash_Dean(Planning).jpg';
-import Debraj_Asso from '../../assets/Images/People/Debraj_Asso.png';
 import sateesh from '../../assets/Images/People/sateesh_MS.jpeg';
 import Sushant_Vasta from '../../assets/Images/People/Sushant_Vatsa.png';
 import Ravindra_MS from '../../assets/Images/People/Ravindra_MS1.jpeg';
+import munwar_ from '../../assets/Images/People/munwar_basha.jpg';
 
 gsap.registerPlugin(ScrollTrigger);
-
 
 
 const Home = () => {
@@ -77,7 +76,7 @@ const Home = () => {
         <div className='dean-message-all'>
           <h1 className='dean-message-heading'>DEAN'S MESSAGE</h1>
           <div className='dean-message-details'>
-            <p className='dean-message-content'>As the Dean, I am dedicated to fostering an environment where innovation, excellence, and inclusivity are paramount. Our institution prides itself on maintaining high academic standards and providing holistic support for all students. By encouraging critical thinking and leadership, we prepare our students to excel in an ever-evolving world.</p>
+            <p className='dean-message-content'>As the Dean (Planning), Prof. Surya Prakash is committed to fostering an environment where innovation, excellence, and inclusivity are paramount. With a strategic focus on academic growth and institutional development, he ensures that our institution upholds the highest standards while providing holistic support for all students. By promoting critical thinking, leadership, and forward-thinking initiatives, he plays a pivotal role in preparing students to excel in an ever-evolving world.</p>
             <div className='dean-message-photo'>
               <img className='dean-message-photo-img' src={Dean} alt="DeanPic" />
             </div>
@@ -88,16 +87,16 @@ const Home = () => {
         <div className='dean-message-all-1'>
           <h1 className='dean-message-heading-1'>ASSOCIATE DEAN'S <br /> MESSAGE</h1>
           <div className='dean-message-details-1'>
-            <p className='dean-message-content-1'>As the Associate Dean, I am honored to contribute to the growth and development of our academic community. We strive to create opportunities that challenge students intellectually and promote personal growth. Collaboration and engagement are at the heart of our approach, ensuring students are equipped for real-world success.</p>
+            <p className='dean-message-content-1'>As the Associate Dean (Planning), Prof. B. Munwar Basha is honored to contribute to the growth and development of our academic community. With a strategic vision, he works to create opportunities that challenge students intellectually and foster personal growth. Collaboration and engagement are at the core of his approach, ensuring that students are well-prepared for real-world success through innovative planning and institutional development.</p>
             <div className='dean-message-photo-1'>
-              <img className='dean-message-photo-img-1' src={Debraj_Asso} alt="DeanPic" />
+              <img className='dean-message-photo-img-1' src={munwar_} alt="DeanPic" />
             </div>
           </div>
         </div>
 
         <div className='past-dean-div'>
           <h1 className='past-dean-heading'>MAIN STAFF</h1>
-          <div className='past-dean-members-all-1'>
+          <div className='past-dean-members-all'>
             <div className='past-dean-member'>
               <img className='past-dean-img' src={Ravindra_MS} alt="Dean img" loading='lazy' />
               <h2 className='past-dean-member-name'>K S Ravindra Babu</h2>
